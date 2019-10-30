@@ -1,0 +1,12 @@
+personal { "height" : "5 11", "color" : "Blue" ,"author": "Tony" }
+
+answer = input ("Type height , favorite color , favo author " )
+if answer in personal :
+    result = me (answer)
+    print (personal)
+    
+    songs = { "lucky Dube" : "Its not that easy",
+              "Bob Marley" : "Three little birds",
+              "2pac" : "California Love",
+              "Alan Jackson" : "Living on love"
+              }
