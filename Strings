@@ -1,0 +1,11 @@
+words = ("camus")
+words [0]
+'c'
+words [1]
+'a'
+words [2]
+'m'
+words [3]
+'u'
+words [4]
+'s'
