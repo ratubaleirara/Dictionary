@@ -1,0 +1,2 @@
+new = " where now ? who now ? where now ? ." .split ("?")
+print(new) 
