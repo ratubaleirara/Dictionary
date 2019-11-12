@@ -1,0 +1,2 @@
+string = " aldous Huxley was born in 1894 . ". capitalized ()
+print (string )
