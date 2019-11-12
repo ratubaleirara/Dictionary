@@ -1,0 +1,6 @@
+answer 1 = input ("what did you write yesterday")
+answer 2 = input ("where did you go yesterday")
+
+new_string = "yesterday i wrote a {}. i send it to {}." .fotmat (answer 1 , answer 2).
+
+print (new_string)
