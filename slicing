@@ -1,0 +1,3 @@
+sentence = """It was a bright cold day in April , and the clock were stricking thirteen"""
+slice = sentence[0:27]
+print (slice)
