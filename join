@@ -1,0 +1,4 @@
+q3 = ["The","fox","jump","over","the","fence","".]
+q3 = "".join(fox)
+q3 = fox[0: -2] + "."
+print('q3')
