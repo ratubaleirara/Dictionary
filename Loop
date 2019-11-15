@@ -1,0 +1,3 @@
+shows = ["The walking Dead","Entourage","The Sopranos","The Vampire Diaries"]
+for show in show:
+    print(show)
