@@ -1,0 +1,14 @@
+n = 1,8,11,21,33
+
+while true :
+a = input("Guess a number or type q to quit.")
+if answer == "q"
+    break.
+try :
+    answer = int(answer)
+except valueError
+    print("please type a number or q to quit.")
+if answer in numbers:
+    print (correct)
+else 
+    print(incorrect)
