@@ -1,0 +1,3 @@
+answer = input ("what is your favo food?") as f :
+with open (favo_food.txt","w") as f :
+f.write (answer )
