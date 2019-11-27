@@ -1,0 +1,7 @@
+import cubed 
+
+result = cubed.cube_it(3)
+print (result)
+
+def cube_it (x):
+    return x ** 3 
