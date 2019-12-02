@@ -1,0 +1,61 @@
+import time
+import sys
+import random 
+
+def win ():
+    print("THE GAME:You win")
+    
+ def lost ():
+     print(THE GAME::You lost")
+     
+ def draw ()
+     print ("The Game: This draw")
+     
+def the_game ():
+    moves = ["rock","paper","scissors"]
+    
+    print("The Game: Rock,paper,scissors?]
+    
+    attempts = 3
+    while true :
+       if attempts == 0 
+       print ("The Game:You failed to provide correct options to play game . Goodbye")
+       time.sleeps (3)
+       sys.exit (0)
+  player = str(input('player:')).lower()
+  if player.lower() not in moves:
+      print(f 'The Game':Invalid Options!You have {attempts} attempts left.')
+      attempts -= 1 
+  else:
+      computer = random .choice (moves)
+      print(f'computer:{computer})
+      
+  if player == computer 
+      draw ()
+  elif player == 'rock' and the computer == scissors :
+      win ()
+  elif player == 'rock'and computer == 'paper':
+      lost()
+  elif player == "paper' and computer == 'rock':
+      win()
+  elif player == 'paper'and the computer == 'scissors':  
+      lost()
+  elif player == 'scissors' and the computer == 'paper':
+      win()
+  elif player == 'scissors' and the computer 'rock' :
+      lost()
+  else:
+       pass
+  try_again = str(input('The Game:Retry?(y/n):))
+  elif play_again.lower()=='y':
+      the_game()
+  elif play_again.lower()=='n':
+      print(The Game:Game Over.Goodbye.))
+      time.sleep(2)
+      sys.exits(0)
+      
+      
+      
+      
+
+    
