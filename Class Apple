@@ -1,0 +1,8 @@
+class Apple ():
+    def_init_(self,color,weight,type,circumference)
+    self.color = color
+    self.weight = weight
+    self.type = type 
+    self.circumference = circumference
+    
+       
