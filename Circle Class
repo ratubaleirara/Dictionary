@@ -1,0 +1,11 @@
+class Circle ():
+    def_int_(self ,radius):
+    self.radius = radius
+    
+   def culculate_area(self):
+       return self.radius ** 2 * 
+       
+    a_circle = Circle(4)
+print(a_circle.calculate_area())   
+    
+cle 
