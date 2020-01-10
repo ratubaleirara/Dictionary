@@ -1,0 +1,8 @@
+class Hexagon():
+def perimeter_hexagon(self,side):
+    self.perimeter = 6 * side
+    return self.perimeter
+    
+ hexagon = hexagon ()
+ hex_perimeter = hex.cal_perimeter(6)
+     print(hex_perimeter)
