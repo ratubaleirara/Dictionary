@@ -1,0 +1,52 @@
+mport datetime
+
+
+class Customer:
+    def __init__(self, name, email, products):
+        self.name = name
+        self.email = email
+        self.products = products
+        self.products_ordered = {}
+
+    def order_item(self, name):
+        product = self.products.find_item_by_name(name)
+        if product:
+            self.products_ordered[product] = datetime.datetime.today()
+        else:
+            print("Could not find that product")
+
+    def print_ordered_items(self):
+        for key, value in self.products_ordered.items():
+            print(key.name, key.price)
+
+
+class Product:
+    def __init__(self, name, price, shipping_days):
+        self.name = name
+        self.price = price
+        self.in_stock = True
+        self.shipping_time = shipping_days
+
+
+class ProductList:
+    def __init__(self):
+        self.products = []
+
+    def create_product(self, name, price, shipping_days):
+        new_product = Product(name, price, shipping_days)
+        self.products.append(new_product)
+
+    def find_item_by_name(self, name):
+        for product in self.products:
+            if product.name == name:
+                return product
+
+
+products = ProductList()
+rick = Customer('Rick', "rick@gmail.com", 'rick', 'panda', products)
+products.create_product("Google Home", 49.99, 3)
+products.create_product("Apple Watch", 300, 5)
+products.create_product("xbox", 200, 7)
+rick.order_item("Google Home")
+rick.order_item("Apple Watch")
+rick.print_ordered_items()
