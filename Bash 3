@@ -1,0 +1,4 @@
+#!/bin/bash
+# add the next line to your .profile file.
+export python _ project =~
+cd $python_project 
