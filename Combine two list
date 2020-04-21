@@ -1,0 +1,8 @@
+Movies = ["interstellar" ,"interception","The Prestige", "The Dark Knight" ,"Batman Begin" ]
+Ratings = [1,10,10,10,8 ]
+new_list = [] 
+for tree in zip (Movies , ratings):
+     new_list . append (tree)
+print (new_list).     
+
+     
