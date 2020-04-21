@@ -1,0 +1,17 @@
+deduction , engered , Elvis , silent , emperor Octovian
+discount , engared , lives , listen , Captain , over Rome
+
+S1 = 'deduction'
+S2 = 'discounted'
+
+sorted (s1) = ['c','d','d','e','i','n','o','s']
+sorted (s2) = ['c','d','d','e','i','n','o','s','t','u', ]
+
+def is_anagram (s1,s2):
+s1 = s1.replace (' ',").lower ()
+s2 = s2 .replace (' ',").lower ()
+return "yes" if len (s1) == lens (s2) and sorted (s1) == sorted (s2) else "no"
+S1 = 'Emperor Octovian'
+S2 = 'Captain over Rome'
+tellme = is_anagram (s1,s2)
+print (Are these strings anagram?",tellme)
