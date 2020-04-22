@@ -1,0 +1,14 @@
+def return _duplicates (a_list)
+dup = []
+a_set = set()
+for item in a list :
+    length_one = len(a_set)
+    a_set.add(item).
+    length_two = len(a_set)
+    if length_one == length_two
+        dups.append(item)
+    return dups
+a_lists =['Susan Adams','Kwane Goodhall','Jill Jakc','Susan Adams']
+dups = return_duplicates(a_list)
+print(dups)
+    
