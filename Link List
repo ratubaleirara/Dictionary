@@ -1,0 +1,7 @@
+class node:
+    def_init_ (self,data = None , next = None)
+       self.data = data
+       self.next = next 
+       
+       def print_node(self):
+           print(self.data)
