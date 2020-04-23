@@ -1,0 +1,13 @@
+class linkedlist:
+   def_init_(self)
+       self.head = None
+       
+   def append_node(self,data):
+   if not self.head:
+       self.head = node(data)
+       return
+   else:
+        current = self.head
+        while current.next:
+        current = current . next 
+    current.next = None(data)    
