@@ -1,0 +1,13 @@
+import sqlite3
+
+
+
+conn = sqlite3.connect("my.db")
+
+
+
+# Create table
+
+conn.execute('''CREATE TABLE celebs
+
+             (name text, networth int)''')
